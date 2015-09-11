@@ -1,5 +1,5 @@
 ## Literature Review 1 :
-### [Using GUI Ripping for Automated Testing of Android Applications](http://delivery.acm.org/10.1145/2360000/2351717/p258-amalfitano.pdf?ip=152.7.224.7&id=2351717&acc=ACTIVE%20SERVICE&key=6ABC8B4C00F6EE47%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=712019992&CFTOKEN=85662494&__acm__=1441934110_2da4abc1094d7c6326effe04acdd9979) - Domenico Amalfitano, Anna Rita Fasolino, Porfirio Tramontana, and Salvatore De Carmine , Atif M. Memon
+**i.**### [Using GUI Ripping for Automated Testing of Android Applications](http://delivery.acm.org/10.1145/2360000/2351717/p258-amalfitano.pdf?ip=152.7.224.7&id=2351717&acc=ACTIVE%20SERVICE&key=6ABC8B4C00F6EE47%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=712019992&CFTOKEN=85662494&__acm__=1441934110_2da4abc1094d7c6326effe04acdd9979) - Domenico Amalfitano, Anna Rita Fasolino, Porfirio Tramontana, and Salvatore De Carmine , Atif M. Memon
 
 **ii.** **Keywords:**
 
@@ -12,7 +12,7 @@ An intuitive represenation of the structure extracted during ripping. The nodes 
 ii3. **Bugs**:
 Errors which produce undersirable outcome during app usage, also responsible for app malfunction. Popularly, andriod bugs are *Activity*-based which arise due to incorrect implementation of activity protocol, *Event*-based which arise when the app performs a wrong action for an incoming event, and *Dynamic*-based which come up due to runtime exceptions.
 
-ii4. **Random Testing** Zhifang Liu, Xiaopeng Gao and Xiang Long. 2010. Adaptive Random Testing of Mobile Application. In Proceedings of the 2nd International Conference on Computer Engineering and Technology (ICCET ’10), IEEE Computer Society, Washington, DC, USA, 2, 297-301.
+ii4. **Random Testing** 
 ii5. **Test Cases**
 
 [Atif Memon, Ishan Banerjee, and Adithya Nagarajan. 2003. GUI Ripping: Reverse Engineering of Graphical User Interfaces for Testing. In Proceedings of the 10th Working Conference on Reverse Engineering (WCRE '03). IEEE Computer Society, Washington, DC, USA, 260-269.](http://www.cs.umd.edu/~atif/pubs/MemonWCRE2003.pdf)

@@ -1,10 +1,7 @@
-# ASE_test
 
-eading gadgets.py:
-
+Reading gadgets.py:
 1) find one part of the code you understand . write down what it does
 (in less than four lines)
-
 ```
 class Schaffer(Candidate):
 lines(46-56)
@@ -14,9 +11,7 @@ The method evaluates the candidate's single decision value at the two functions.
 for the decision variable. Later, the ```objs``` stores the functions to minimize the scores which are called by 
 ```Less```. To call and store the values minimized into ```objs```, the ```maker()``` method is used.
 
-
 2) find one part of the code you do not understand, write down the line number.
-
 ```
  133:         i.also + x
 ```
@@ -25,15 +20,11 @@ Why is the also being auto-incremented?
 3a)  "Recursive factories I";  . in the process of filling in
 decisions on line 256, the code recurses somewhere else and asks
 another object to fill in one value. What other object?
-
 ``` An ```
-
 3b)  "Recursive factories II";  . in the process of filling in
 objectives on line 265, the code recurses somewhere else and asks
 another object to fill in one value. What other object?
-
 ``` Less ```
-
 4) on lines 292 to 303 , we are mutating during simulated annealling
 - what is "sn":  A candiate in aFewblanks after checking for contraint count.
 - what is "can":  A candidate value

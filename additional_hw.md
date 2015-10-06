@@ -25,6 +25,7 @@ another object to fill in one value. What other object?
 objectives on line 265, the code recurses somewhere else and asks
 another object to fill in one value. What other object?
 ``` Less ```
+
 4) on lines 292 to 303 , we are mutating during simulated annealling
 - what is "sn":  A candiate in aFewblanks after checking for contraint count.
 - what is "can":  A candidate value

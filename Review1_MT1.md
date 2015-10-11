@@ -14,18 +14,43 @@ Can you define the following?
 
 1. Evolutionary algorithms
    1. Genetic algorithms
-   - 
-   1. Genetic programsming
+   - Genetic algos make use of selection,recombination(crossover) and mutation to find solutions to the problem.They work
+     over a population of candidate solutions. Initially, the population is created at random. Later, the generations 
+     makes use of selection,recombination and mutation to to select promising solutions,mix them in certain way and 
+     adjust them slightly(mutate) adjust them. GA is used in test case generation for SBSE.
+     :initial random population -> evaluate(fitness of individual) -> selection(to improve overall fitness) -> crossover(new      individuals) -> mutation(add randomness to individual) -> repeat
+   1. Genetic programming
+   - GP is a way to find computer programs to perform a user-defined task. It is a ML technique which is used to optimize
+     a population of programs according to a fitness landscape determined by a programs ability to perform a task. They are 
+     represented in memory by tree structures. Every node has an opertor and the terminal node an operand. The main o
+     operations in GP are crossover and mutation. Assuming tree structure,
+     Crossover: is replacing a node of an individual's tree with a node of another individuals tree(ex. mating)
+     Mutations: is applied on the individual's tree by replacing whole node or replacing the node information.
+     Difference b/w GA and GP is the representation of solution. GA represents the candidate solns by encoding/string of 	     numbers. GP creates programs.
 1. Evolutionary programs 101
    1. Mutation
-      1. Can u give examples of GA mutation? of GP mutation?
+      1. Can u give examples of GA mutation? of GP mutation? 
+      	 - GA Mutation: construct a list of operations using (0-9,+,-,*,/) such that the sequence give the result as 42.
+      	 - GP Mutation: A program to fire a gun to hit the moving target. objective is to find the off target distance  	           of the bullet to the target. Several variables like windspeed,distance of target,gun speed etc, are to be 
+      	   mutated to find the best program.
   1. Crossover
 	  1. Can u give examples of GA crossover? of GP crossover
+	  - Identical parents in GP crossover can yield differnt offspring whereas identical parents in GA would yield
+	    identical offspring.
+	  - GA Crossover: The picture (http://www.abrandao.com/wp-content/uploads/2015/01/gene_crossover.gif) 
+	  - GP Crossover: The picture (http://images.slideplayer.com/3/778832/slides/slide_51.jpg)
   1. Selection
     1. Binary domination
+       - The method of selection the mating pool where two members are selected at random to compete with the only member
+         progressing to the next round of the tournament. When tournament is over, the relative fitness of the member is 
+	 decided according to the level of the tournament reached. The more successful the chromosome is in the competetion,
+ 	 the more often it is expected to appear in the mating pool
     1. Pareto frontier (hint a diagram is good here)
       1. spread
+      	- The spread is the spacing of solutions in the approximate set amongst each other.
       1. hypervolume
+      	- It measures the area of the solution set dominated by pareto-optimal solutions. The hypervolume represents
+      	  the dominance of sets.
 
 ____
 
@@ -57,6 +82,7 @@ ____
 
 1. Simulated annealing
    1. When to use SA
+   - 
    1. Why random jumps?
    2. What is the cooling schedule?
       1. Why slow cooling? (when you jump less and less)

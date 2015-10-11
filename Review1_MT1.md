@@ -82,8 +82,14 @@ ____
 
 1. Simulated annealing
    1. When to use SA
-   - 
+      - SA is used as an Unordered search.It is used where greedy methods fail especially when there are a lot of local
+        extremas in the function. SA uses the stochastic search to find the global maxima/minima by trying to escape 
+	the local extrema by making use of the cooling function. Used when there are a lot of local extremas. Also used 
+	when we have enough space for holding 3 solutions in RAM.
    1. Why random jumps?
+      - Random jumps helps the optimizer escape local extrema. Its done to jump to a worse solution when the 
+        temperature is less than a random probability.Whenever, the temperature is cooled, which is gets closer to one,
+	the random jumps are reduced.
    2. What is the cooling schedule?
       1. Why slow cooling? (when you jump less and less)
    1. When to stop
@@ -96,17 +102,47 @@ For each of the following, can you offer a 3 line code snippet to demo
 the idea?
 
 1. Classes
+```
+class employee:
+	def __init__(self,name,age):
+		self.name = name 
+		self.age = age
+	def __repr__(name,age):
+		return '%s is %g years old' %(self.name,self.age)
+```
 1. Functions
+ - ```def fn(x,y) : return x+y```
 1. Decorators
+ - ``` @timer def f(x,y): return x + y ```
 1. Static variables, functions
+ - Variables declared inside the class not the methods are called static variables. 
+ ```class myopia:
+    i = 2
+myopia.i```
+ - Static function It does not receive an implicit first argument
+```class MyClass(object):
+    @staticmethod
+    def the_static_method(x):
+        print x
+MyClass.the_static_method(2)```
 1. Scope
   1. nested scope
+  - ```
+def foo():
+    x='Outer String'
+    def bar():
+        print x
+    return bar
+test = foo()
+test()```
+
 1. functions
   1. default params
   1. variable lists args
   1. variable dictionary args
   1. lambda bodies
 1. list comprehensions
+ - ```a = [x for x in range(10)]```
 1. decorators
 
 

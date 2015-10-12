@@ -51,7 +51,7 @@ Can you define the following?
       1. hypervolume
       	- It measures the area of the solution set dominated by pareto-optimal solutions. The hypervolume represents
       	  the dominance of sets.
-
+	- Hypervolume: If solutions are considered as point in an N-Dimensional space (where N=no. of objectives), then the 		  hypervolume is the N-Dimensional space contained by that solution. Thus, if we were solving for 2 solutions,              then 	we have a 2-D space, the hypervolume will just be the area of the solutions (refer Rahul Krishnas mail           which has the pictures)(https://lh3.googleusercontent.com/-o2OD5VALxfc/Vhr_1xYDBMI/AAAAAAAABkw/Yt6LQ98lZB4/s1600/Bu		  siness%2BCards_4.jpg)(https://lh3.googleusercontent.com/-fZng26GIlO0/Vhr954w4X8I/AAAAAAAABkg/0N4daQYkE5g/s1600/B		  usiness%2BCards_2.jpg)
 ____
 
 1. Optimizing optimizers <img align=right width=400 src="http://snag.gy/Cdatd.jpg">

@@ -19,17 +19,18 @@
   - Compartmentmental modeling has stocks to be estimated by the incoming/outgoing flux and the exisiting stock inventory.
    For ex,  C = C0 + dt(r1+r3-r2)...where r1,r2,r3 are the rates and C0 is existing stock. C is the current stock.
  + What is elite sampling?
-  - 
+  - Selecting the fittest candidates from a bigger population.
  + Define — stocks, flows
   - A stock is measured at a point of time. ex.inventory level, net worth etc
   - Flow is measured over a period of time like, monthly income, depreciation, burn rate etc
  + What are auxillary variables used for?
-  - 
+  - Auxillary variables show the influence of the explanatory variables,constants and parameters.
  + Name some python tools that can be used for DSLs.
   - contextmanagers,regex
  + What is an internal DSL?
+  - An Internal DSL is written within an host Language. like inside python
  + Write a compartmental model for the diaper example below:
-   
+ 
   ![image](https://cloud.githubusercontent.com/assets/1433964/10382520/e3319b44-6df2-11e5-994a-22702be67235.png)
 
  + Label the models below:

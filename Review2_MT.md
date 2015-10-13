@@ -139,8 +139,7 @@ class Some:
       i.any[ int(r() * now) ]= x 
     return i
 ```	
-__iadd__(self,other): Implements addition with assignment
-if the last statement is deleted, the program would still run and give the same result
+AttributeError: 'NoneType' object has no attribute 'n'
 
 2d. In English, explain what the above `Some` class  does. Use it in a loop
 to keep `Some` numbers in the series 0,1,2,...999.

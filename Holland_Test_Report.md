@@ -1,5 +1,5 @@
 ## Learning Model for the Holland America Data-set
-**Author:** Guduguntla Vamsi
+**Author:** Guduguntla Vamshi
 | email: gudugu@ncsu.edu
 | date: 20 Nov 2015
 
